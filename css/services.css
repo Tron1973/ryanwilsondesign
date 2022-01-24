@@ -1,0 +1,491 @@
+/*-- -------------------------- -->
+<---          LANDING           -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #bottom-grid {
+    min-height: 50vh;
+    background: url("/images/lowerGridMobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  #bottom-grid:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #bottom-grid h1 {
+    color: #fff;
+    font-size: 3.2em;
+    text-align: center;
+    margin: 0;
+    position: relative;
+  }
+  #bottom-grid h1:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 200%;
+    width: 50%;
+    background: transparent;
+    border: 0.15625em solid var(--primary);
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 48em) {
+  #bottom-grid {
+    font-size: 20px;
+    background: url("/images/lowerGrid.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+  #bottom-grid {
+    min-height: 15em;
+    height: 15em;
+    margin-top: 2em;
+    background-position: center 80%;
+    background-attachment: fixed;
+    font-size: inherit;
+  }
+}
+/*-- -------------------------- -->
+<---           ABOUT            -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #about-content .container {
+    padding: 0;
+    width: 96%;
+    margin: auto;
+  }
+  #about-content .image {
+    position: relative;
+    width: 100%;
+    max-width: 20em;
+    height: 20em;
+    margin: auto;
+    margin-bottom: 2.5em;
+  }
+  #about-content .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #about-content .content .topper {
+    font-size: 0.7em;
+    line-height: 1.35714286;
+    color: var(--primary);
+    letter-spacing: 0.06em;
+    margin-bottom: 0.42857143em;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #about-content .content h2 {
+    font-size: 1.8em;
+    line-height: 1.16666667;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 0.66666667em;
+    position: relative;
+  }
+  #about-content .content h2:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 4.16666667em;
+    width: 4.16666667em;
+    background: black;
+    opacity: 0.05;
+    top: -1.38888889em;
+    left: -1.38888889em;
+    z-index: -1;
+  }
+  #work .decoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.9em;
+  }
+  #work .decoration img {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin-right: 0.75em;
+  }
+  #work .decoration .line {
+    width: 80%;
+    max-width: 60%;
+    height: 1px;
+    background: #18cae6;
+  }
+  #work p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #595959;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 48em) {
+  #about-content {
+    padding-top: 10em;
+  }
+  #about-content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 57.2em;
+  }
+  #about-content .image {
+    margin: 0;
+    max-width: 20em;
+  }
+  #about-content .content {
+    width: 27.5em;
+    margin-left: 2.5em;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+  #about-content .image {
+    max-width: 25em;
+  }
+}
+
+/*-- -------------------------- -->
+<---           WORK            -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #work {
+    padding-top: 5em;
+  }
+  #work .container {
+    width: 90%;
+    margin: auto;
+  }
+  #work .topper {
+    font-size: 0.7em;
+    line-height: 1.35714286;
+    color: #18cae6;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.42857143em;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  #work h2 {
+    font-size: 2.1em;
+    line-height: 1em;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-bottom: 0.47619048em;
+    position: relative;
+  }
+  #work h2:before {
+    content: "";
+    position: absolute;
+    height: 3.57142857em;
+    width: 3.57142857em;
+    background: black;
+    opacity: 0;
+    top: -1.19047619em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  #work .main-p {
+    font-size: 0.9em;
+    color: #595959;
+    text-align: center;
+    width: 96%;
+    max-width: 35em;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  #work ul li {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 0.9em;
+    color: #7c7c7c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #work ul li img {
+    width: 2em;
+    height: 2em;
+    display: block;
+    margin-right: 0.5em;
+  }
+
+  #work .example {
+    margin-bottom: 3.75em;
+    width: 100%;
+    max-width: 20em;
+  }
+  #work .example .image {
+    position: relative;
+    object-fit: fill;
+    width: 100%;
+    max-width: 20em;
+    height: 20em;
+    margin: auto;
+    margin-bottom: 2.5em;
+  }
+  #work .example .image-two {
+    position: relative;
+    object-fit: fill;
+    width: 100%;
+    max-width: 20em;
+    height: 20em;
+    margin: auto;
+    margin-bottom: 2.5em;
+  }
+  #work .example .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #work .example .image-two img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #work .example .desc {
+    border-left: 5px solid var(--primary);
+    padding-left: 20px;
+  }
+  #work .example h3 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+  #work .example .title {
+    font-size: 0.8em;
+    line-height: 1.6875;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #595959;
+    margin-bottom: 1.5em;
+    display: block;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 48em) {
+  #work .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 96%;
+    max-width: 57.2em;
+    padding: 0;
+    margin-top: 3em;
+  }
+  #work .topper {
+    font-size: 0.7em;
+    line-height: 1.35714286;
+    color: #18cae6;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.42857143em;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 6rem;
+  }
+  #work .example {
+    margin: 0;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: none;
+  }
+  #work .example .image {
+    width: 40%;
+    margin: 0;
+    margin-right: 0;
+  }
+  #work .example .image-two {
+    width: 40%;
+    margin: 0;
+    margin-right: 0;
+  }
+  #work .example .content {
+    width: 60%;
+  }
+}
+/*-- -------------------------- -->
+<---          SERVICES          -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #services {
+    padding-top: 0;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 100;
+    position: relative;
+  }
+  #services .service {
+    background: linear-gradient(#18cae6, #183f9b);
+    padding: 2.1em;
+    width: 100%;
+    margin: auto;
+    border: 2px solid #fff;
+  }
+  #services .service:nth-of-type(2) {
+    background: linear-gradient(#183f9b, #18cae6);
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    order: 1;
+    margin-bottom: 0;
+  }
+  #services .service:nth-of-type(2) .button-solid {
+    color: #183f9b;
+  }
+  #services .service:nth-of-type(2) .button-solid:before {
+    background: var(--primary);
+  }
+  #services .service:nth-of-type(2) .button-solid:hover {
+    color: #fff;
+  }
+  #services .service h2 {
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.16666667;
+    margin-bottom: 0.625em;
+    text-align: left;
+    font-weight: 700;
+  }
+  #services .service h2 span {
+    display: block;
+    color: #fff;
+  }
+  #services .service p {
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 1.66666667em;
+    opacity: 1;
+  }
+  #services .service .button-solid {
+    background: #fff;
+    color: #183f9b;
+  }
+  #services .service .button-solid:hover {
+    color: #fff;
+  }
+}
+/* Large Phone */
+@media only screen and (min-width: 600px) and (max-width: 790px) {
+  #services {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+  }
+  #services .service:nth-of-type(1) {
+    border-right: 0.05em solid rgba(255, 255, 255, 0.05);
+  }
+  #services .service:nth-of-type(1),
+  #services .service:nth-of-type(3) {
+    width: 50%;
+    border-radius: 0;
+  }
+  #services .service:nth-of-type(2) {
+    order: -1;
+  }
+  #services .service:nth-of-type(2) h2,
+  #services .service:nth-of-type(2) p {
+    text-align: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #services .service:nth-of-type(2) .button-solid {
+    margin: auto;
+    display: block;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 791px) {
+  #services {
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    position: relative;
+    z-index: 100;
+    padding: 0;
+  }
+  #services .service {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0.25em 0.25em 0 0;
+  }
+  #services .service:nth-of-type(2) {
+    order: initial;
+    width: 100%;
+    height: 20em;
+  }
+  #services .service:last-of-type {
+    border-radius: 0.25em 0.25em 0 0;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+  #services .service:nth-of-type(2) {
+    box-shadow: none;
+  }
+}
+/* Large Desktop */

@@ -1,0 +1,258 @@
+/* Pages */
+/*-- ------------------------------ -->
+    <---           HOME             -->
+    <--- -------------------------- -*/
+/*-- ------------------------------ -->
+    <---           ABOUT            -->
+    <--- -------------------------- -*/
+/*-- ------------------------------ -->
+    <---          CONTACT           -->
+    <--- -------------------------- -*/
+@media screen and (min-width: 0px) {
+  body.dark-mode #hero {
+    position: relative;
+  }
+  body.dark-mode #hero:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+  }
+  body.dark-mode #hero h1 {
+    color: #fff;
+  }
+  body.dark-mode #hero .call-now .light {
+    display: none;
+  }
+  body.dark-mode #hero .call-now .dark {
+    display: inline-block;
+  }
+  body.dark-mode #hero .call-now .text {
+    color: #fff;
+  }
+  body.dark-mode #hero .call-now .number {
+    color: #fff;
+  }
+  body.dark-mode #hero .button-solid {
+    background: var(--darkPrimary);
+  }
+  body.dark-mode #hero .button-solid:before {
+    background: var(--tint);
+  }
+  body.dark-mode #services .service {
+    background: linear-gradient(#18cae6, #183f9b);
+  }
+  body.dark-mode #services .service .button-solid:before {
+    background: var(--tint);
+  }
+  body.dark-mode #services .service:nth-of-type(2) {
+    background: linear-gradient(#183f9b, #18cae6);
+  }
+  body.dark-mode #services .service:nth-of-type(2) .button-solid:before {
+    background: var(--primary);
+  }
+  body.dark-mode #about:before {
+    background: #0a0a0a;
+  }
+  body.dark-mode #about .left-section:before {
+    background: var(--shade);
+    opacity: 0.1;
+  }
+  body.dark-mode #about .right-section .topper {
+    color: var(--shade);
+  }
+  body.dark-mode #about .right-section h2 {
+    color: #fff;
+  }
+  body.dark-mode #about .right-section h2:before {
+    background: var(--shade);
+    opacity: 0.1;
+  }
+  body.dark-mode #about .right-section h2 span {
+    color: var(--shade);
+  }
+  body.dark-mode #about .right-section .decoration .line {
+    background: var(--shade);
+  }
+  body.dark-mode #about .right-section .button-solid {
+    background: var(--darkPrimary);
+  }
+  body.dark-mode #how-we-know {
+    box-shadow: none;
+  }
+  body.dark-mode #how-we-know .left-section {
+    background: var(--medium);
+  }
+  body.dark-mode #how-we-know .left-section ul li {
+    color: #fff;
+    opacity: 0.9;
+  }
+  body.dark-mode #how-we-know .right-section {
+    background: var(--darkPrimary);
+  }
+  body.dark-mode #how-we-know .right-section .button-solid {
+    color: var(--darkPrimary);
+  }
+  body.dark-mode #how-we-know .right-section .button-solid::before {
+    background: var(--tint);
+  }
+  body.dark-mode #how-we-know .right-section .button-solid:hover {
+    color: #fff;
+  }
+}
+body.dark-mode #footer {
+  background: #0e0d0d;
+}
+body.dark-mode #footer .button-solid {
+  background: var(--darkPrimary);
+}
+body.dark-mode #footer .button-solid:before {
+  background: var(--tint);
+}
+body.dark-mode #bottom-grid {
+  background: url("../images/lowerGridDark.png");
+  background-size: cover;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body.dark-mode #about-content .content .topper {
+  color: var(--shade);
+}
+body.dark-mode #about-content .content h2 {
+  color: #fff;
+}
+body.dark-mode #about-content .content h2:before {
+  background: var(--shade);
+  opacity: 0;
+}
+body.dark-mode #about-content .content h2 span {
+  color: var(--shade);
+}
+body.dark-mode #about-content .content .decoration .line {
+  background: #18cae6;
+}
+body.dark-mode #work h2 {
+  color: #fff;
+}
+body.dark-mode #work .example .title {
+  color: #fff;
+  opacity: 0.7;
+}
+body.dark-mode #form .topper {
+  color: var(--shade);
+}
+body.dark-mode #form h2 {
+  color: #fff;
+}
+body.dark-mode #form label {
+  color: #fff;
+}
+body.dark-mode #form ::placeholder {
+  opacity: 0.3;
+}
+body.dark-mode #form .contact-right {
+  background: #18cae6;
+}
+body.dark-mode #form .contact-right .heading {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: bold;
+  padding-left: 0.83333333em;
+  border-left: 0.20833333em solid #183f9b;
+  display: block;
+  margin-bottom: 0.83333333em;
+}
+
+body.dark-mode a {
+  color: #fff;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  body.dark-mode #how-we-know {
+    background: var(--darkPrimary);
+  }
+}
+@media only screen and (min-width: 1px) {
+  body.dark-mode .website-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  body.dark-mode .website-modal-content {
+    margin: auto;
+    background-color: black;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px;
+  }
+  body.dark-mode .website-animate-zoom {
+    animation: animatezoom 0.6s;
+  }
+  body.dark-mode .website-opacity,
+  body.dark-mode .website-hover-opacity:hover {
+    opacity: 0.3;
+  }
+  body.dark-mode.website-opacity-off,
+  .website-hover-opacity-off:hover {
+    opacity: 1;
+  }
+  body.dark-mode .website-transparent,
+  .website-hover-none:hover {
+    background-color: transparent !important;
+  }
+  body.dark-mode .website-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+    transform: translateY(125%);
+    margin-left: 0.5rem;
+    cursor: pointer;
+    white-space: nowrap;
+    z-index: 100;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  body.dark-mode .website-image {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    margin: 1rem;
+    object-fit: fill;
+    margin-left: 0;
+  }
+
+  body.dark-mode .website-display-topright {
+    z-index: 100;
+    position: relative;
+  }
+}
+body.dark-mode .imgCaption {
+  color: #ffffff;
+  font-family: "Poppins";
+}
