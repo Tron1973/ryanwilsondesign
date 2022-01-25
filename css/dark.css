@@ -115,7 +115,7 @@ body.dark-mode #footer .button-solid:before {
   background: var(--tint);
 }
 body.dark-mode #bottom-grid {
-  background: url("../images/lowerGridDark.png");
+  background: url("/images/lowerGridDarkMobile.png");
   background-size: cover;
   background-position: center 80%;
   background-repeat: no-repeat;
@@ -255,4 +255,13 @@ body.dark-mode a {
 body.dark-mode .imgCaption {
   color: #ffffff;
   font-family: "Poppins";
+}
+@media only screen and (min-width: 48em) {
+  body.dark-mode #bottom-grid {
+    background: url("/images/lowerGridDark.png");
+    background-size: cover;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }

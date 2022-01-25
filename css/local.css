@@ -317,7 +317,7 @@ main {
     height: 3.57142857em;
     width: 3.57142857em;
     background: black;
-    opacity: 0.05;
+    opacity: 0;
     top: -1.19047619em;
     left: 50%;
     transform: translateX(-50%);
@@ -633,7 +633,7 @@ main {
     height: 4.16666667em;
     width: 4.16666667em;
     background: black;
-    opacity: 0.05;
+    opacity: 0;
     top: -1.38888889em;
     left: -1.38888889em;
     z-index: -1;

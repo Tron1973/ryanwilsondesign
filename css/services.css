@@ -373,7 +373,6 @@
     padding: 2.1em;
     width: 100%;
     margin: auto;
-    border: 2px solid #fff;
   }
   #services .service:nth-of-type(2) {
     background: linear-gradient(#183f9b, #18cae6);
