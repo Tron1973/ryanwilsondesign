@@ -114,6 +114,9 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: 10%;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 100vh;
   }
   #hero .hero-content {
     display: flex;
