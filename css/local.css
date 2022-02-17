@@ -33,6 +33,7 @@ main {
     width: 96%;
     max-width: 57.2em;
     margin: auto;
+    margin-left: 1em;
     position: relative;
     z-index: 10;
   }
