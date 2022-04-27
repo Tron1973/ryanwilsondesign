@@ -242,10 +242,11 @@
     align-items: center;
   }
   #work ul li img {
-    width: 2em;
-    height: 2em;
+    width: 2rem;
+    height: 2rem;
     display: block;
     margin-right: 0.5em;
+    margin: .25rem;
   }
 
   #work .example {
