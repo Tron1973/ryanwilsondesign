@@ -64,7 +64,6 @@
   #bottom-grid {
     min-height: 15em;
     height: 15em;
-    margin-top: 2em;
     background-position: center 80%;
     background-attachment: fixed;
     font-size: inherit;
@@ -461,7 +460,6 @@
     max-width: 100%;
     margin: auto;
     margin-top: 3em;
-    margin-bottom: 2em;
     position: relative;
     z-index: 100;
     padding: 0;
