@@ -230,7 +230,7 @@
     width: 90%;
     max-width: 35em;
     margin: auto;
-    margin-bottom: 3.88888889em;
+    margin-bottom: 2rem;
   }
   #work .example {
     margin-bottom: 3.75em;
@@ -285,7 +285,7 @@
   }
   #work .example {
     margin: 0;
-    margin-bottom: 5em;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
