@@ -180,6 +180,11 @@
 /*-- -------------------------- -->
 <---           WORK             -->
 <--- -------------------------- -*/
+.content-wrapper {
+  max-width: 90%;
+  justify-self: center;
+  margin:auto;
+}
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #work {
