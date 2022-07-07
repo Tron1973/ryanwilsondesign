@@ -46,7 +46,7 @@ main {
   }
   #hero h1 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.75em;
     color: #000000;
     line-height: 1.17857143;
     margin-bottom: 0.41071429em;
@@ -142,6 +142,15 @@ main {
   }
   #hero .business-casual {
     right: 2.5em;
+  }
+  #hero .hero-content {
+    margin-left: 6em;
+  }
+  #hero h1 {
+    font-size: 2.5em;
+  }
+  #hero p {
+    font-size: 1.1em;
   }
 }
 /* Large Desktop */
