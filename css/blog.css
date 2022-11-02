@@ -193,6 +193,9 @@
   #work .container {
     width: 90%;
     margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
   #work .topper {
     font-size: 0.7em;
